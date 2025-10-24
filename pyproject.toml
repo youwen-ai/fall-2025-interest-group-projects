@@ -1,0 +1,19 @@
+[project]
+name = "LoRA"
+version = "0.1.0"
+description = "LoRA project"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24.0",        # https://numpy.org/
+    "pandas>=2.0.0",        # https://pandas.pydata.org/
+    "matplotlib>=3.7.0",    # https://matplotlib.org/
+    "scikit-learn>=1.3.0",  # https://scikit-learn.org/
+    "torch>=2.0.0",         # https://pytorch.org/
+    "transformers>=4.30.0", # https://huggingface.co/transformers/
+    "adapters",
+    "ipykernel>=6.0.0",
+    "datasets",
+    "accelerate>=0.26.0",
+    "seaborn"
+]
